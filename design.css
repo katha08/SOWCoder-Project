@@ -1,0 +1,328 @@
+.headerpart h1{
+	
+	color: white;
+		font-family: all;
+		text-align: justify;
+		background-color: #006400;
+		padding right: 30px;
+		 position: relative;
+		 font-size: 80px;
+  top: 5px;
+  left: : 25px;
+text-decoration: none;
+margin-left:20%;
+		
+}
+.headerpart img{
+	height: 190px;
+	width: 20%;
+	position: top;
+	float: left;
+	padding-bottom: 10px;
+
+}
+
+.topnav a{
+color: white;/*
+background-color: violet;
+*/overflow: hidden;
+font-family:cursive;
+/*text-shadow: currentColor;
+text-indent: : center;*/
+font-size: 20px;
+padding:14px;
+align-content: right;
+padding-top: 15px;
+text-decoration: none;
+}
+.topnav a:hover{
+	background-color: pink;
+	padding:10px;
+}
+/*.topnav a.active{
+	 background-color: pink;
+  color: white;
+}*/
+
+.topnav input[type=text] {
+   padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.topnav .search-container {
+  float: right;
+}
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.topnav .search-container button{
+	background-image: url('searchico.png');
+}
+.headerpart a {
+	color :white;
+	cursor:pointer;
+	font-size: 20px;
+	border:none;
+	text-decoration: none;
+	position: center;
+}
+.headerpart .a sign{
+	background-color:#006400 ;
+
+	
+}
+.hearderpart .a sign :hover{
+	background-color: pink;
+}
+.headerpart a{
+	background-color: #006400;
+margin-left: 20px;
+margin-top: 60px;
+margin-right: 10px;
+float: right;
+text-decoration:none;
+
+}
+.headerpart a:hover{
+	background-color: pink;
+}
+
+
+body{
+	background-color: #000000;
+}
+.part2 h6{
+	color: white;
+	float: left;
+	position: left;
+	font-family: all;
+	font-size: 20px;
+	margin-right: 50%;
+	text-align: justify;
+}
+.part2 img{
+		
+		
+		float:right;
+		margin-left: 50%;
+		height:20%;
+		width:30%;
+		
+
+
+	}
+
+h1{
+	text-align: center;
+	color:#C71585;
+}
+h2{
+	color:brown;
+	margin-left: 20%;
+	text-decoration: none;
+
+
+}
+.loc1{
+	margin-left:30%;
+
+
+}
+.logpg{
+	margin: 0px;
+	padding:0px;
+	font-family: sans-serif;
+	background: black;
+}
+.box{
+	width:400px;
+	background: #191919;
+	text-align: center;
+	float:all;
+	max-width:600px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding:30px 40px;
+	box-sizing: border-box;
+	
+	
+}
+.box h1{
+	color:green;
+}
+.box h4{
+	color:green;
+	font-family: sans-serif;
+}
+
+.box input[type="text"], .box input[type="password"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:20px auto;
+	text-align:center;
+	border:2px solid #3498db;
+	padding:14px 10px;
+	width:200px;
+	outline: none;
+	color:white;
+	border-radius:24px;
+	transition:0.25s; 
+}
+ /*.box rt{
+ 	float:right;
+	top:0;
+	right:0;
+	box-sizing: border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+	color:green;
+
+
+}*/
+.donimg{
+	height:20%;
+	width:30%;
+	position: center;
+	margin-left:35%;
+}
+.donbtn{
+
+	margin-left: 40%;
+	border:none;
+	font-size: 300%;
+	font-weight: 100%;
+	text-decoration: bold;
+	color:green;
+	padding: 3% 4% 3% 4%;
+	cursor: pointer;
+	border-radius: 50%;
+	border-color: none;
+	background: #FF8C00;
+}
+h3{
+	color:green;
+	font-size: 150%;
+}	
+.back{
+	background-image: url("donatebac.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.select option{
+	color: white;
+}
+.donfor{
+	color:white;
+
+}
+.donfor .hi input{
+	padding-bottom: 8%;
+	width:20%;
+}
+
+.conbd{
+	margin:0;
+	padding:0;
+	background-image: url("handshake1.png");
+	background-repeat: no-repeat;
+background-size: cover;
+	/*background-size: 100% 300%;*/
+	background-color: #FFA07A;
+	color:black;
+
+}
+.contactform{
+	width:85%;
+	max-width:600px;
+	background:#f1f1f1;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding:30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+font-family: sans-serif;
+color:black;
+}
+.contactform h1{
+	margin-top: 0;
+	font-weight: 200;
+
+}
+.txtc{
+border:1px solid gray;
+margin:8px 0;
+padding: 12px 18px;
+border-radius: 8px;
+}
+.txtc label{
+	display: block;
+	text-align: left;
+	color:#333;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.txtc input, .txtc textarea{
+
+	width:100%;
+	border:none;
+	background:none;
+	outline:none;
+	font-size:18px;
+	margin-top:6px;
+}
+.glass{
+	display: inline-block;
+	background:green;
+	padding:14px 0;
+	color:white;
+	text-transform: uppercase;
+	cursor:pointer;
+	margin-top:8px;
+	width:100%;
+}
+.row {
+  display: flex;
+  margin-top: 10%;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
